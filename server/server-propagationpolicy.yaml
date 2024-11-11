@@ -14,7 +14,6 @@ spec:
     clusterAffinity:
       clusterNames:
         - proxmox-member-1
-        - proxmox-member-2
     replicaScheduling:
       replicaDivisionPreference: Weighted
       replicaSchedulingType: Divided
@@ -23,8 +22,4 @@ spec:
           - targetCluster:
               clusterNames:
                 - proxmox-member-1
-            weight: 10
-          - targetCluster:
-              clusterNames:
-                - proxmox-member-2
             weight: 10
