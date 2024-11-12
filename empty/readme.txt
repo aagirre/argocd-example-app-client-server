@@ -1,0 +1,1 @@
+empty dir to delete resources through ArgoCD
